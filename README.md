@@ -96,4 +96,4 @@ webMethods API Gateway
 ----------------------
 webMethods Developer Portal can be used with any 3rd party API. However, in order to take full advantage of the webMethods API Management Suite, you can try pairing it with [webMethods API Gateway](https://github.com/SoftwareAG/webmethods-api-gateway).
 ______________________
-These tools are provided as-is and without warranty or support. They do not constitute part of the webMethods product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
+These tools are provided as-is and without warranty or support. They do not constitute part of the webMethods product suite. Users are free to use, fork and modify them, subject to the license agreement. While we welcome contributions, we cannot guarantee to include every contribution in the master project.
