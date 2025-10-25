@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: devportal
-          image: store/softwareag/devportal:10.15
+          image: ibmwebmethods.azurecr.io/devportal:11.1
           resources:
             limits:
               cpu: "4"
@@ -29,9 +29,9 @@ spec:
               cpu: "1"
               memory: "1024Mi"
           ports:
-            - containerPort: 8083
+            - containerPort: 8080
           env:
-            - name: SPRING_ELASTICSEARCH_REST_URIS
+            - name: SPRING_ELASTICSEARCH_URIS
               value: http://devportal-es-svc:9200
       imagePullSecrets:
         - name: regcred
