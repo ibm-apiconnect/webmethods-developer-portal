@@ -121,7 +121,6 @@ spec:
               drop:
                 - ALL
             runAsNonRoot: true
-            runAsUser: 1000730000
           volumeMounts:
             - mountPath: /usr/share/elasticsearch/data
               name: vol

@@ -2,11 +2,11 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: devportal-route
-  namespace: devportal
+  namespace: dpocluster
   labels:
     run: devportal-lb
 spec:
-  host: devportal-route-devportal.apps.ocp1.eur.ad.sag
+  host: devportal-route-dpocluster.apps.<openshift.url>
   path: /portal
   to:
     kind: Service
