@@ -34,5 +34,6 @@
   `oc create -f devportal-lb.yaml -n dpocluster`
 
 * Create a Route to access the application outside of Openshift cluster
+NOTE: Update the host value
 
   `oc create -f devportal-route.yaml -n dpocluster`
